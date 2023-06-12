@@ -251,6 +251,7 @@ It should look like this:
 
 </details>
 
+</details>
 ---
 
 # **Install & Start Dependency Track**
