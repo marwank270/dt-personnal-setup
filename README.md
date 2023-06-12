@@ -351,6 +351,7 @@ My personal project was originally runned with **Node.js-v14.21.3(LTS: Fermium)*
   <details><summary>It should looks like this:</summary>
 
   ![nvm node v16 install](img/nvm-node-v16.PNG)
+  
   </details>
 
 - Install the project dependencies:
@@ -387,7 +388,7 @@ In not so long we'll need two strings that we can save now for later:
   
     ![api key copy](img/api-key-copy.PNG)
     
-  </details>
+    </details>
     
 **Copy in a text file or come to this section when it's time to upload.**    
 
