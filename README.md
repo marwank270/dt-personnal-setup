@@ -66,7 +66,7 @@ Then run `nvm -v` to check if it's installed and responding.
 <details>
 <summary>It should looks like this:</summary>
 
-![nvm installation check](../img/nvm-install-check.PNG)
+![nvm installation check](img/nvm-install-check.PNG)
 
 </details>
 
@@ -97,7 +97,7 @@ You can run `git -v` to check if the software is installed
 <details>
 <summary>It should looks like this:</summary>
 
-![git installation check](../img/git-install-check.PNG)
+![git installation check](img/git-install-check.PNG)
 
 </details>
 
@@ -144,7 +144,7 @@ $ sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin do
 <details>
 <summary>It should looks like this:</summary>
 
-![docker and docker compose installation check](../img/docker-docker-compose-installed-check.PNG)
+![docker and docker compose installation check](img/docker-docker-compose-installed-check.PNG)
 
 </details>
 
@@ -197,7 +197,7 @@ $ php -r "unlink('composer-setup.php');"
 <details>
 <summary>It should looks like this:</summary>
 
-![composer installation check](../img/composer-installation.PNG)
+![composer installation check](img/composer-installation.PNG)
 
 </details>
 
@@ -241,7 +241,7 @@ It should look like this:
 <details>
 <summary>It should looks like this:</summary>
 
-![cyclonedx php composer plugin installed](../img/cyclonedx-installed-php-composer.PNG)
+![cyclonedx php composer plugin installed](img/cyclonedx-installed-php-composer.PNG)
 
 </details>
 
@@ -274,9 +274,9 @@ $ sudo docker compose up -d
 <details>
 <summary>It should looks like this:</summary>
 
-![dependency track docker installation](../img/dependency-track-docker-compose.PNG)
+![dependency track docker installation](img/dependency-track-docker-compose.PNG)
 
-![dependency track server started](../img/dependency-track-started.PNG)
+![dependency track server started](img/dependency-track-started.PNG)
 
 </details>
 
@@ -293,7 +293,7 @@ This command outputs all the containers and informations about them.
 <details>
 <summary>It should looks like this:</summary>
 
-![dependency track docker containers](../img/docker-ps--a.PNG)
+![dependency track docker containers](img/docker-ps--a.PNG)
 
 </details>
 
@@ -320,7 +320,7 @@ $ cd proto-old
 <details>
 <summary>It should looks like this:</summary>
 
-![usage exemple begining](../img/usage-env.PNG)
+![usage exemple begining](img/usage-env.PNG)
 
 </details>
 
@@ -344,9 +344,9 @@ My personal project was originally runned with **Node.js-v14.21.3(LTS: Fermium)*
   ```
   <details><summary>It should looks like this:</summary>
 
-  ![nvm node v16 install](../img/nvm-node-v16.PNG)
+  ![nvm node v16 install](img/nvm-node-v16.PNG)
 
-  ![nvm node v16 install check](../img/nvm-node-v16-install-check.PNG)
+  ![nvm node v16 install check](img/nvm-node-v16-install-check.PNG)
 
   </details>
 
@@ -360,9 +360,9 @@ Time to create the project on Dependency Track. In the '_Projects_' tab we have 
 
 <details><summary>Open to view screenshots</summary> 
 
-![create project](../img/create-project.PNG)
+![create project](img/create-project.PNG)
 
-![created project](../img/created-project.PNG)
+![created project](img/created-project.PNG)
 
 </details>
 
@@ -372,7 +372,7 @@ In not so long we'll need two strings that we can save now for later:
 
     <details><summary>Open for screenshot</summary> 
     
-    ![project details and uuid](../img/project-details-uuid.PNG)
+    ![project details and uuid](img/project-details-uuid.PNG)
     
     </details>
 
@@ -380,9 +380,9 @@ In not so long we'll need two strings that we can save now for later:
   
     <details><summary>Open for screenshots</summary> 
     
-    ![authomation](../img/api-key-teams-automation.PNG)
+    ![authomation](img/api-key-teams-automation.PNG)
   
-    ![api key copy](../img/api-key-copy.PNG)
+    ![api key copy](img/api-key-copy.PNG)
     
   </details>
     
@@ -403,7 +403,7 @@ This line will first fetch then pull the lastest version of `cyclonedx-npm` pack
 
 <details><summary>It should looks like this:</summary>
 
-![proto sbom exemple](../img/proto-sbom.PNG)
+![proto sbom exemple](img/proto-sbom.PNG)
 
 </details>
 
@@ -443,7 +443,7 @@ Variables content:
 
 Now if you execute this script inside a project as I did, you will see that few minutes later (dependending on the project's size obviously) you should see on your server the results of the analysis.
 
-![upload token](../img/upload-token.PNG)
-![dependency track analysis](../img/dependency-track-final.PNG)
+![upload token](img/upload-token.PNG)
+![dependency track analysis](img/dependency-track-final.PNG)
 
 And results have been submitted to Dependency Track successfully !
