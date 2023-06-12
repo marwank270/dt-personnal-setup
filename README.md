@@ -252,7 +252,8 @@ It should look like this:
 </details>
 
 </details>
----
+
+----
 
 # **Install & Start Dependency Track**
 Now that all we can need have been installed it's time to download, start and do our first Component Analysis.
