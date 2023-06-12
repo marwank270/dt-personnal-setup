@@ -110,7 +110,7 @@ You can run `git -v` to check if the software is installed
 
 #### **How ?**
 
-Folling the [documentation of Docker](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository) we will set up the official repository before installing.
+Following the [documentation of Docker](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository) we will set up the official repository before installing.
 
 1. Update the `apt` package index and install packages to allow `apt` to use a repository over HTTPS:
     ```shell
@@ -139,6 +139,9 @@ Now we can get Docker, we can update our package index and run `apt install` to 
 ```shell
 $ sudo apt update
 $ sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+$
+$ docker -v
+$ docker compose version
 ```
 
 <details>
@@ -243,6 +246,9 @@ It should look like this:
 
 ![cyclonedx php composer plugin installed](img/cyclonedx-installed-php-composer.PNG)
 
+
+![cyclonedx php composer plugin installed check](img/cyclonedx-composer-install-check.PNG)
+
 </details>
 
 ---
@@ -345,9 +351,6 @@ My personal project was originally runned with **Node.js-v14.21.3(LTS: Fermium)*
   <details><summary>It should looks like this:</summary>
 
   ![nvm node v16 install](img/nvm-node-v16.PNG)
-
-  ![nvm node v16 install check](img/nvm-node-v16-install-check.PNG)
-
   </details>
 
 - Install the project dependencies:
